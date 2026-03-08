@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+ul {
+    list-style-type: none;
 }
 a{
   text-decoration: none;
@@ -12,4 +16,82 @@ a{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.logo img{
+  height: 1.1rem;
+  margin-left: 5rem !important;
+}
+.navbar{
+  background-color: white !important;
+  height: 4.5rem;
+}
+.nav-item a{
+  margin-left: 2rem !important; 
+}
+.navbar-nav{
+  margin-left: 28.5rem !important;
+}
+.nav-options{
+  background-color: white;
+}
+.nav-item a:hover{
+  color: rgba(56, 126, 209);
+}
+.socials i{
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+.socials i:hover{
+  opacity: 1;
+  color: rgba(56, 126, 209);
+  cursor: pointer;
+}
+.footer{
+  width: 100%;
+
+  padding: 3rem 8rem 0 8rem;
+  background-color: #f9f8f8;
+}
+.footer p{
+  font-size: 1.2rem;
+}
+.f-list li a{
+  color: black;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+.f-list li{
+  margin-bottom: 1rem;
+}
+.f-list li a:hover{
+  opacity: 1;
+  color: rgba(56, 126, 209);
+}
+.f-text-btm p{
+  font-size: 0.65rem;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+.f-text-btm p a:hover{
+  color: black;
+  opacity: 1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.footer-links a{
+  font-size: 0.8rem;
+  opacity: 0.5;
+  color: black;
+  margin-right: 1.5rem;
+}
+.footer-links a:hover{
+  color: rgba(56, 126, 209);
+  opacity: 1;
+  cursor: pointer;
 }
