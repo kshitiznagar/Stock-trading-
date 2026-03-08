@@ -1,13 +1,14 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg border-bottom fixed-top">
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand mx-4 logo" href="#">
+        <Link class="navbar-brand mx-4 logo" to="/">
           <img src="/media/images/logo.svg" />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,29 +24,29 @@ function NavBar() {
           <form class="d-flex nav-options" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+                <Link class="nav-link" aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="about">
                   About
-                </a>
+                </Link>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="product">
                   Product
-                </a>
+                </Link>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
                <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="support">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
