@@ -50,7 +50,7 @@ code {
   width: 100%;
 
   padding: 3rem 8rem 0 8rem;
-  background-color: #f9f8f8;
+  background-color: #fbfafa;
 }
 .footer p{
   font-size: 1.2rem;
@@ -94,4 +94,13 @@ code {
   color: rgba(56, 126, 209);
   opacity: 1;
   cursor: pointer;
+}
+.google-btn img{
+  width: 7rem;
+}
+.apple-btn img{
+  width: 6.2rem;
+}
+.team-img img{
+  height: 10rem;
 }

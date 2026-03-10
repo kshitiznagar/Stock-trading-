@@ -1,4 +1,6 @@
 import React from "react";
+import "../index.css";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="border-top footer">
@@ -24,6 +26,14 @@ function Footer() {
               <i class="fa-brands fa-youtube"></i>
               <i class="fa-brands fa-whatsapp"></i>
               <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div className="row">
+              <div className="col-6 google-btn mt-4">
+                <Link to="https://play.google.com/store/games?hl=en_IN"><img src="/media/images/google-play-badge-light.svg"/></Link>
+              </div>
+              <div className="col-6 apple-btn mt-4">
+                <Link to="https://www.apple.com/in/app-store/"><img src="/media/images/appstore-badge-light.svg"/></Link>
+              </div>
             </div>
           </div>
           <div className="col f-list">
