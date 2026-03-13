@@ -670,6 +670,7 @@ hr {
 .list {
   list-style-type: none;
   padding-bottom: 12%;
+  padding-left: 0;
 }
 
 .list li {
@@ -720,8 +721,8 @@ hr {
   width: 100%;
   height: 100%;
   align-items: center;
-  justify-content: flex-end;
-  display: none;
+  justify-content: center;
+  display: flex;
 }
 
 .actions span button {
