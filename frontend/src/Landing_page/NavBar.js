@@ -7,7 +7,7 @@ function NavBar() {
     <nav class="navbar navbar-expand-lg border-bottom sticky-top">
       <div class="container-fluid">
         <Link class="navbar-brand mx-4 logo" to="/">
-          <img src="/media/images/logo.svg" />
+          <img src="/media/images/Screenshot_2026-03-19_at_8.53.18_AM-removebg-preview.png" style={{height:"6rem"}}/>
         </Link>
         <button
           class="navbar-toggler"

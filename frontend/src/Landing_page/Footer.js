@@ -7,12 +7,12 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <img src="/media/images/logo.svg" style={{ height: "1.2rem" }} />
+            <img src="/media/images/Screenshot_2026-03-19_at_8.53.18_AM-removebg-preview.png" style={{ height: "6rem", width:"10rem" }} />
             <p
               className="muted-text fw-light mt-3"
               style={{ fontSize: "0.8rem" }}
             >
-              &copy; 2010 - 2026, Zerodha Broking Ltd.<br></br>All rights
+              &copy; 2010 - 2026, Snaptrade Broking Ltd.<br></br>All rights
               reserved.
             </p>
             <div className="socials fs-5 mt-2">
