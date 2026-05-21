@@ -55,20 +55,27 @@ const WatchListItem = ({ stock, key }) => {
           <span className="price">{stock.price}</span>
         </div>
       </div>
-      {showWatchListActions && <WatchListActions uid={stock.name} />}
+      {showWatchListActions && <WatchListActions stock={stock} />}
     </li>
   );
 };
 
-const WatchListActions = ({ uid }) => {
+const WatchListActions = ({ stock }) => {
   const generalContext = useContext(GeneralContext);
 
   const handleBuyClick = () => {
-    generalContext.openBuyWindow(uid, "BUY");
+    generalContext.openBuyWindow(stock.name, "BUY");
   };
   const handleSellClick = () => {
-    generalContext.openBuyWindow(uid, "SELL");
+    generalContext.openBuyWindow(stock.name, "SELL");
   };
+  const handleAnalyticsClick = () => {
+    generalContext.openAnalyticsWindow(stock);
+  };
+  const handleMoreClick = () => {
+    generalContext.openMoreWindow(stock);
+  };
+
   return (
     <span className="actions">
       <span className="actions">
@@ -95,6 +102,7 @@ const WatchListActions = ({ uid }) => {
           placement="top"
           arrow
           TransitionComponent={Grow}
+          onClick={handleAnalyticsClick}
         >
           <button className="action">
             <BarChartOutlinedIcon className="icon" />
@@ -105,6 +113,7 @@ const WatchListActions = ({ uid }) => {
           placement="top"
           arrow
           TransitionComponent={Grow}
+          onClick={handleMoreClick}
         >
           <button className="action">
             <MoreHorizIcon className="icon" />

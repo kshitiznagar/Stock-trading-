@@ -55,7 +55,7 @@ function NavBar() {
               {isLoggedIn ? (
                 <>
                   <li className="nav-item">
-                    <a className="nav-link fw-semibold text-primary" href={dashboardUrl}>
+                    <a className="nav-dashboard-btn" href={dashboardUrl}>
                       <i className="fa-solid fa-chart-line me-1"></i> Go to Dashboard ({username})
                     </a>
                   </li>

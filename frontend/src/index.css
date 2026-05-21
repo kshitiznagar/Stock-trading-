@@ -104,3 +104,63 @@ code {
 .team-img img{
   height: 10rem;
 }
+
+/* ==========================================
+   Premium Unified Brand Button Theme 
+   ========================================== */
+
+/* Overrides for Bootstrap Primary Buttons to ensure consistent branding */
+.btn-primary {
+  background-color: #387ed1 !important;
+  border-color: #387ed1 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 6px rgba(56, 126, 209, 0.18) !important;
+  border: 1px solid transparent !important;
+}
+
+.btn-primary:hover {
+  background-color: #2b61a3 !important;
+  border-color: #2b61a3 !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 12px rgba(43, 97, 163, 0.28) !important;
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(1px) !important;
+  box-shadow: 0 2px 4px rgba(43, 97, 163, 0.15) !important;
+}
+
+/* Custom Nav Dashboard Button styling - matching the premium btn-primary theme */
+.nav-dashboard-btn {
+  background-color: #387ed1 !important;
+  border-color: #387ed1 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+  font-weight: 500 !important;
+  margin-left: 2rem !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 6px rgba(56, 126, 209, 0.18) !important;
+  border: 1px solid transparent !important;
+}
+
+.nav-dashboard-btn:hover {
+  background-color: #2b61a3 !important;
+  border-color: #2b61a3 !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 12px rgba(43, 97, 163, 0.28) !important;
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+.nav-dashboard-btn:active {
+  transform: translateY(1px) !important;
+  box-shadow: 0 2px 4px rgba(43, 97, 163, 0.15) !important;
+}
