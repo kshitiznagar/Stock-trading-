@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import HomePage from './Landing_page/home/HomePage';
 import SignUp from "./Landing_page/sign_up/SignUp";
+import Login from "./Landing_page/login/Login";
 import About from './Landing_page/about/About';
 import Product from "./Landing_page/products/ProductsPage";
 import Pricing from "./Landing_page/pricing/PricingPage";
@@ -19,6 +20,7 @@ root.render(
   <Routes>
     <Route path='/' element={<HomePage/>}/>
     <Route path='/signup' element={<SignUp/>}/>
+    <Route path='/login' element={<Login/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/product' element={<Product/>}/>
     <Route path='/pricing' element={<Pricing/>}/>
